@@ -1,4 +1,4 @@
-# mantle-api-php
+# Mantle API Library for PHP
 
 A very basic PHP library for accessing the Mantle API. Never give your Mantle API key to anyone, and never use it on the frontend or store it in source control!
 
