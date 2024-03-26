@@ -7,7 +7,7 @@ A very basic PHP library for accessing the Mantle API. Never give your Mantle AP
 ```php
 <?php
 
-require_once 'MantleClient.php';
+require_once 'mantle-client.php';
 
 try {
     // Initialize the MantleClient with necessary parameters
