@@ -1,5 +1,7 @@
 <?php
 
+use Exception;
+
 class MantleClient {
     private $appId;
     private $apiKey;
