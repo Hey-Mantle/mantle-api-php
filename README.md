@@ -22,10 +22,10 @@ try {
     $identifyResponse = $mantleClient->identify(
         $platformId = 'customer_platform_id',
         $myshopifyDomain = 'customer_shop.myshopify.com',
-        $platform = 'shopify',
         $accessToken = 'platform_access_token',
         $name = 'Customer Name',
-        $email = 'customer@example.com'
+        $email = 'customer@example.com',
+        $platform = 'shopify'
     );
     echo "Customer identified; API Token: " . $identifyResponse['apiToken'] . PHP_EOL;
 

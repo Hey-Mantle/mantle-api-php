@@ -64,7 +64,7 @@ class MantleClient {
         return json_decode($response, true);
     }
 
-    public function identify($platformId, $myshopifyDomain, $platform = 'shopify', $accessToken, $name, $email, $customFields = null) {
+    public function identify($platformId, $myshopifyDomain, $accessToken, $name, $email, $customFields = null, $platform = 'shopify') {
         $body = [
             'platformId' => $platformId,
             'myshopifyDomain' => $myshopifyDomain,
